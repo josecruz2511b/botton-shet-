@@ -48,9 +48,7 @@ export default function App() {
             handleIndicatorStyle={styles.handleIndicator}
           >
             <BottomSheetView style={styles.sheetContent}>
-              <Text style={styles.sheetText}>
-                🎉 ¡Bottom Sheet funcionando!
-              </Text>
+              <Text style={styles.sheetText}>¡Bottom Sheet funcionando!</Text>
               <Text style={styles.sheetSubText}>
                 Puedes arrastrar hacia arriba para expandir más
               </Text>
