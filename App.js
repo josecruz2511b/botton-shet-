@@ -12,13 +12,11 @@ export default function App() {
   const snapPoints = useMemo(() => ["25%", "50%", "90%"], []);
 
   const handleOpenSheet = useCallback(() => {
-    console.log("Abriendo bottom sheet...");
     bottomSheetRef.current?.snapToIndex(0);
     setIsOpen(true);
   }, []);
 
   const handleCloseSheet = useCallback(() => {
-    console.log("Cerrando bottom sheet...");
     bottomSheetRef.current?.close();
     setIsOpen(false);
   }, []);
